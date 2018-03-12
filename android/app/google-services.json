@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "609873802952",
+    "project_id": "firebase-practicelogin"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609873802952:android:30d0b1474599bf18",
+        "android_client_info": {
+          "package_name": "com.practice3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609873802952-0gkc1dud5j8ejcofvs19r9sl2pgo4hv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice3",
+            "certificate_hash": "7e1c337b626797d1f01f8989f466837d9a322cba"
+          }
+        },
+        {
+          "client_id": "609873802952-ag2ua92oucv04hvdlqivf883sv3b1b5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG7_erR_5S21NqMgg9ZZ1lFy8pVmPtFe0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
