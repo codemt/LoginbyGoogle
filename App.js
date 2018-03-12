@@ -9,6 +9,7 @@ import {
   Platform,
   StyleSheet,
   Text,
+  Button,
   View
 } from 'react-native';
 import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin';
@@ -65,6 +66,16 @@ export default class App extends Component {
 })
 .done();
 
+
+  }
+  Signout(){
+            GoogleSignin.signOut()
+            .then(() => {
+              console.log('out');
+            })
+            .catch((err) => {
+            
+            });
   }
   render() {
     return (
@@ -83,6 +94,12 @@ export default class App extends Component {
     size={GoogleSigninButton.Size.Icon}
     color={GoogleSigninButton.Color.Dark}
     onPress={this.handle.bind(this)}/>
+     <Button
+    style={{width: 48, height: 48}}
+    title="Sign Out"
+    size={GoogleSigninButton.Size.Icon}
+    color={GoogleSigninButton.Color.Dark}
+    onPress={()=>this.Signout()}/>
       </View>
     );
   }
