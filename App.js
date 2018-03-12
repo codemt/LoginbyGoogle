@@ -93,7 +93,7 @@ export default class App extends Component {
     style={{width: 48, height: 48}}
     size={GoogleSigninButton.Size.Icon}
     color={GoogleSigninButton.Color.Dark}
-    onPress={this.handle.bind(this)}/>
+    onPress={()=>this.handle()}/>
      <Button
     style={{width: 48, height: 48}}
     title="Sign Out"
