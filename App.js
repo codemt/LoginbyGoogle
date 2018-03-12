@@ -61,7 +61,7 @@ export default class App extends Component {
 
 })
 .catch((err) => {
-  console.log('WRONG SIGNIN', err);
+  console.log('WRONG SIGNING checking error..', err);
 })
 .done();
 
